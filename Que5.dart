@@ -11,11 +11,3 @@ void main() {
     }
   });
 }
-// void main() {
-//   Map<String, dynamic> myMap = {'name': 'John', 'age': 25};
-
-//   // Get the length of the 'name' key
-//   int nameKeyLength = myMap['name'].length;
-
-//   print('Length of the key "name": $nameKeyLength');
-// }
