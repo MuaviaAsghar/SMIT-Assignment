@@ -1,5 +1,3 @@
-import 'test.dart';
-
 void main() {
   List<String> randstr = [
     'apple',
@@ -10,6 +8,6 @@ void main() {
     'grape'
   ];
   print("The list before removal of duplicates:$randstr");
-  var dup = removeDuplicates(randstr);
+  var dup = randstr.toSet().toList();
   print("The list after removal of duplicates:$dup");
 }
