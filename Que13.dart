@@ -1,7 +1,7 @@
 void main() {
-  List<int> numberslist = [321, 313, 3131, 42145, 23, 42, 525, 5, 423, 3245];
-  List<dynamic> sortednums = numberslist;
-  print("List before sorting$numberslist");
-  sortednums.sort();
-  print("The list after sorting$sortednums");
+  List<int> list = [32, 421, 421, 32, 50, 51, 53, 1, 3, 13, 2, 3, 1, 2];
+
+  print("List before: $list");
+  List<int> uniqueList = list.toSet().toList();
+  print("List after: $uniqueList");
 }
