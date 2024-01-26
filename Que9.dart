@@ -11,4 +11,8 @@ void main() {
     262622562562,
     62626266226632
   ];
+  num Min = Randint.reduce(min);
+  num Max = Randint.reduce(max);
+  print("$Max is the maximum value in list.");
+  print("$Min is the minimum value in list");
 }
