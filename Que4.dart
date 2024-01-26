@@ -16,8 +16,9 @@ void main() {
     996,
     69
   ];
-  numbers.sort();
-  var greatest = numbers.last;
-  var lowest = numbers.first;
+  var copysorted = numbers;
+  copysorted.sort();
+  var greatest = copysorted.last;
+  var lowest = copysorted.first;
   print("The Greatest number is $greatest and lowest number is $lowest ");
 }
