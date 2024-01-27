@@ -1,14 +1,3 @@
-// void main() {
-//   Map person = {"name": "John", "age": 25, "isStudent": true};
-//   person.forEach((key, value) {
-//     if (key == "isStudent" && value == true) {
-//       print("Eligible");
-//     } else {
-//       print("Not Eligible");
-//     }
-//   });
-// }
-
 void main() {
   Map person = {"name": "John", "age": 18, "isStudent": true};
   for (var i = 0; i < person.length; i++);
