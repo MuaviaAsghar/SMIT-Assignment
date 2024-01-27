@@ -1,9 +1,9 @@
 void main() {
-  Map car = {"brand": "Toyota", "color": "Black", "isSedan": true};
+  Map car = {"brand": "Toyota", "color": "Red", "isSedan": true};
   if (car.containsKey("isSedan") &&
-      car.containsValue("Red") &&
+      car["color"] == "Red" &&
       car.containsKey("isSedan") &&
-      car.containsValue(true)) {
+      car["isSedan"] == true) {
     print("Match");
   } else {
     print("No match");
