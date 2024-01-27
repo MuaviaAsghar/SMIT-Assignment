@@ -1,5 +1,5 @@
 void main() {
-  Map<String, dynamic> user = {
+  Map user = {
     "name": "John",
     "isAdmin": true,
     "isActive": false,
