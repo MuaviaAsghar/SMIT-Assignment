@@ -1,19 +1,6 @@
 void main() {
   List<String> days = [];
-
-  days.add("Monday");
-  days.add("Tuesday");
-  days.add("Wednesday");
-  days.add("Thursday");
-  days.add("Friday");
-  days.add("Saturday");
-  days.add("Sunday");
-  print(days);
-
-//Alternative method
-
-  List<String> Altdays = [];
-  Altdays.addAll([
+  days.addAll([
     "Monday",
     "Tuesday",
     "Wednesday",
@@ -22,5 +9,5 @@ void main() {
     "Saturday",
     "Sunday"
   ]);
-  print(Altdays);
+  print(days);
 }

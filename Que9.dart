@@ -11,7 +11,6 @@ void main() {
     262622562562,
     62626266226632
   ];
-
   num Max = Randint.reduce(max);
   print("$Max is the maximum value in list.");
 }
