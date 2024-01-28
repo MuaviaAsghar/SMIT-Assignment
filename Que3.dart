@@ -8,23 +8,9 @@ void main() {
     "Saturday",
     "Sunday"
   ];
-//Alt methods
-  days.remove(days.length - 1);
   print(days);
-
-  days.removeLast();
-  print(days);
-  //Alt methods
-  days.removeAt(days.length - 1);
-  print(days);
-  days.removeLast();
-  print(days);
-  days.removeLast();
-  print(days);
-  days.removeLast();
-  print(days);
-  days.removeLast();
-  print(days);
-  days.removeLast();
-  print(days);
+  for (var i = days.length - 1; i >= 0; i--) {
+    days.removeLast();
+    print('List: $days');
+  }
 }
