@@ -26,9 +26,7 @@ void main() {
   print("Enter any number ranging between 1 to 20:");
   int? n = int.parse(stdin.readLineSync()!);
   if (n <= list.length) {
-    for (int i = n; i <= n; i++) {
-      print(list.getRange(0, n));
-    }
+    print(list.getRange(0, n));
   } else {
     print(list);
   }
